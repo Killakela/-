@@ -1,2 +1,27 @@
+№1
 2**179
 
+№2
+print((179**2+971**2)**0.5)
+
+№3
+a=int(input())
+b=int(input())
+c=(a**2+b**2)**0.5
+print(c)
+
+№4
+print ("Привет как тебя зовут?")
+Name = input()
+Hi = (f"Привет, {Name}!")
+
+№5
+a = input()
+b = input()
+if a > b:
+    print(a)
+elif b > a:
+    print(b)
+else:
+    a==b
+    print(0)
