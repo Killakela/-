@@ -25,3 +25,59 @@ elif b > a:
 else:
     a==b
     print(0)
+
+№6
+x = input("введите данные:")
+x = int(x)
+
+if x > 0:
+    print(1)
+elif x == 0:
+    print(0)
+else:
+    print(-1)
+   
+№7
+a = str ("Abrakadabra")
+print(a)
+print(a[2])
+print(a[-1])
+print(a[0:5])
+print(a[0:9])
+print(a[::2])
+print(a[1::2])
+print(a[::-1])
+#reversed(a) ???
+# так и не понял почему не переворачиввает
+# Переменную с учетом того что она является строкой?!
+print(a[::-2])
+print(len(a))
+
+№8
+words = ("hello world" )
+count = len(words.split())
+print ("Тут", count, "слова")
+
+№9
+symbol = input('Enter symbol:')
+while symbol !='A':
+    print('Код есть только для символа А, введите повторно')
+    symbol = input('Enter symbol:')
+else:
+    if symbol == 'A':
+        symbol = ord('A')
+    print(symbol)
+
+№10
+symbol = int(input ('Введи символ:'))
+while symbol !=65:
+    print('Буква есть только для кода 65, введите повторно')
+    symbol = int(input('Введи символ:'))
+else:
+    if symbol == 65:
+        symbol = chr(65)
+    print(symbol)
+    
+    
+    
+    
