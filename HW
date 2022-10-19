@@ -78,6 +78,15 @@ else:
         symbol = chr(65)
     print(symbol)
     
-    
+№11
+string1 = ('hole in the ground')
+string2 = ('In a hole in the ground there lived a hobbit.')
+print (string1 + string2)
+count = string1.count(string2)
+if count == 0:
+    print('YES')
+else:
+    count == 1
+    print('NO')
     
     
